@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "weihecrapy-searchrank_jd207"
+name = "weihecrapy-regression_vs_traffic_diff_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://weihecrapy.github.io"
-Repository = "https://github.com/weihecrapy/searchrank_jd207"
-Issues = "https://github.com/weihecrapy/searchrank_jd207/issues"
+Repository = "https://github.com/weihecrapy/regression_vs_traffic_diff_budget_alloc"
+Issues = "https://github.com/weihecrapy/regression_vs_traffic_diff_budget_alloc/issues"
 
 [project.scripts]
-searchrank_jd207 = "searchrank_jd207:main"
+regression_vs_traffic_diff_budget_alloc = "regression_vs_traffic_diff_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["searchrank_jd207"]
+py-modules = ["regression_vs_traffic_diff_budget_alloc"]
